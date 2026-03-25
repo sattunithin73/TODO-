@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    background: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .logo {
+        height: 100%;
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .links {
+        height: 100%;
+        width: 75%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        a {
+            text-decoration: none;
+            color: azure;
+            font-size: larger;
+        }
+    }
+}
